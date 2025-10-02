@@ -1,0 +1,142 @@
+.html,.body{
+    height: 100%;
+}
+
+.body{
+    font-family: "Plus Jakarta Sans", sans-serif !important;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+.container{
+    flex: 1;
+}
+
+.navbar{
+    height: 5rem;
+    background-color: white;
+}
+
+.navbar-brand i{
+    color:#fe424d;
+    font-size: 2rem;
+}
+
+/* .show-img{
+    /* height: 20vh;
+    width: 20vh; */
+     /* max-width: 100%;
+  height: auto;
+  border-radius: 1rem;
+  display: block;
+  margin: 0 auto; */
+    /* width: 100%;
+  height: 400px;
+  object-fit: contain;
+  background-color: #f8f9fa; /* subtle background to show padding */
+ /* border-radius: 1rem;
+  display: block;
+  margin-left: auto;
+  margin-right: auto; */
+   
+/*} */
+
+.image-wrapper {
+    width: 100%;
+    height: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 1rem;
+    overflow: hidden;
+    margin-bottom: 2rem;
+}
+
+.show-img {
+    max-width: 100%;
+    max-height: 100%;
+    object-fit: contain;
+    display: block;
+}
+
+.nav-link{
+    color:#222222 !important;
+}
+
+.f-info-links a{
+    color:#222222 !important;
+    text-decoration: none;
+}
+.f-info-links a:hover{
+    text-decoration: underline;
+}
+
+
+
+.f-info-links,.f-info-socials ,.f-info-brand{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.f-info-socials i{
+    font-size: 1.2rem;
+    margin-right: 1rem;
+}
+
+.f-info{
+    text-align: center;
+    background-color: #ebebeb;
+    height: 8rem;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: space-evenly;
+}
+
+.listing-card{
+    border:none !important;
+    margin-bottom: 2rem;
+}
+
+.card-img-top{
+    border-radius: 1rem !important;
+    width: 100% !important;
+    object-fit: cover !important;
+}
+
+.card-body{
+    padding: 0 !important;
+}
+
+.card-text p{
+    font-weight:400;
+}
+
+.listing-link{
+    text-decoration: none;
+}
+
+.card-img-overlay{
+    opacity: 0;
+}
+
+.card-img-overlay:hover{
+    opacity: 0.2;
+    background-color: white;
+}
+
+.add-btn , .edit-btn{
+    background-color: #fe424d;
+    border: none !important;
+    color:white !important;
+}
+
+
+
+.btns{
+    display: flex;
+    /* justify-content: s; */
+    margin-top: 1rem;
+}
